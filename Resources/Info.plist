@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>VoiceInput</string>
+    <key>CFBundleDisplayName</key>
+    <string>VoiceInput</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.voiceinput.app</string>
+    <key>CFBundleVersion</key>
+    <string>1.0.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleExecutable</key>
+    <string>VoiceInput</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>VoiceInput needs microphone access to capture your voice for speech-to-text conversion.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>VoiceInput needs speech recognition access to convert your voice to text.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>VoiceInput needs to send keyboard events to paste text into other applications.</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+</dict>
+</plist>
