@@ -4,8 +4,9 @@ import Cocoa
 @main
 struct VoiceInputApp {
     static func main() {
-        // Setup app as LSUIElement (menu bar only, no Dock icon)
+        // Setup app as accessory (menu bar only, no Dock icon)
         let app = NSApplication.shared
+        app.setActivationPolicy(.accessory)
 
         // Create and set delegate
         let delegate = AppDelegate()
