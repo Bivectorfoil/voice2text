@@ -243,3 +243,4 @@ MIT License
 - Apple Speech Framework
 - SwiftUI/AppKit
 - 所有贡献者
+- 项目灵感来源：[voice-input-src](https://github.com/yetone/voice-input-src) by [@yetone](https://github.com/yetone)
