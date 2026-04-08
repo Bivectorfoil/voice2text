@@ -35,3 +35,9 @@ Package.resolved
 # Temporary files
 *.tmp
 *.log
+
+# Project-specific (not part of VoiceInput)
+.agents/
+.claude/
+.trellis/
+AGENTS.md
