@@ -51,10 +51,11 @@ final class WaveformView: NSView {
         wantsLayer = true
 
         // Create bars
-        for i in 0..<barCount {
+        for _ in 0..<barCount {
             let bar = NSView(frame: NSRect.zero)
             bar.wantsLayer = true
-            bar.layer?.backgroundColor = NSColor.white.cgColor
+            // Use blue color for waveform bars
+            bar.layer?.backgroundColor = NSColor.systemBlue.cgColor
             bar.layer?.cornerRadius = barWidth / 2
 
             addSubview(bar)
