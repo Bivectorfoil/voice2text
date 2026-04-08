@@ -31,7 +31,10 @@ clean:
 
 sign:
 	@echo "Signing app bundle with entitlements..."
-	codesign --force --deep --sign $(SIGN_ID) --entitlements $(ENTITLEMENTS) build/Release/$(APP_NAME).app
+	codesign --force --deep --sign $(SIGN_ID) \
+		--identifier $(BUNDLE_ID) \
+		--entitlements $(ENTITLEMENTS) \
+		build/Release/$(APP_NAME).app
 	@echo "Signed."
 
 # Development build (faster, no optimization)
